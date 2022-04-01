@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
+    animation: gradient 5s infinite linear;
+    background-size: 400%;
+}
+
+details{
+    text-align: center;
+    max-width: 175px;
+    background-color:#ccc;
+}
+
+summary{
+    list-style: none;
+    width: 150px;
+}
+
+.text{
+    padding: 14px;
+    box-sizing: content-box;
+}
+
+summary::-webkit-details-marker{
+    display: none;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
+
+.wrapper{
+    display: flex;
+    max-width: 100%;
+    padding:150px 50px 50px 50px;
+    flex-wrap: wrap;
+    justify-self:center ;
+}
+
+.title{
+    display: inline-block;
+    position: relative;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "JetBrains Mono ExtraLight";
+    color:#121212;
+    transform: translateX(-50%);
+    right: -50%;
+    padding: 14px 30px;
+}
+
+.card{
+    display: flex;
+    width: 47vw;
+    height: 47vh;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 450ms linear;
+}
+
+.card-yellow{
+ background-color: khaki;
+}
+
+.card-blue{
+ background-color: #CCC;
+}
+
+.card-red{
+ background-color: brown;
+}
+
+.card-green{
+ background-color:black;
+}
+
