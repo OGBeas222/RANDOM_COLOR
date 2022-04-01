@@ -61,7 +61,4 @@ function colors() {
 
 }
 
-
-// colors();
-
 title.onclick = colors;

@@ -1,8 +1,13 @@
 body {
     margin: 0;
-    background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
+    background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%) ;
     animation: gradient 5s infinite linear;
     background-size: 400%;
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 details{
@@ -42,7 +47,7 @@ summary::-webkit-details-marker{
     max-width: 100%;
     padding:150px 50px 50px 50px;
     flex-wrap: wrap;
-    justify-self:center ;
+    justify-content:center ;
 }
 
 .title{
@@ -59,8 +64,8 @@ summary::-webkit-details-marker{
 
 .card{
     display: flex;
-    width: 47vw;
-    height: 47vh;
+    width:650px;
+    height: 650px;
     flex-shrink: 0;
     align-items: center;
     justify-content: center;
